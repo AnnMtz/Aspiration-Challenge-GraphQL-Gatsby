@@ -104,7 +104,7 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 
 # Technologies
 
-Application build using GraphQL & GitHub
+Application builded using GraphQL & GitHub
 
 - React and Gatsby
 - User interface with styled components
