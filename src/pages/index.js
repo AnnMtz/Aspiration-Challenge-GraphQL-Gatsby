@@ -1,28 +1,27 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import { css } from "@emotion/react"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Logo from '../images/react.png'
+
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <div
+      css={`
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      `}
+    >
+      <blockquote css={`font-size: 30px;
+                        font-weight: bolder;
+                        color: purple;`}
+    >
+      Here you can view all the topics related to React, just click on the menu TOPICS at the header
+    </blockquote>
+      <img src={Logo} alt="react image" css={`width: 50%;`}/>
+    </div>
+      
   </Layout>
 )
 
