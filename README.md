@@ -102,4 +102,16 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+# Technologies
+
+Application build using GraphQL & GitHub
+
+- React and Gatsby
+- User interface with styled components
+- Working with GraphQl Apis
+
+# Application
+
+<img width="1792" alt="Screen Shot 2021-09-23 at 19 24 23" src="https://user-images.githubusercontent.com/49168661/134603717-3945dd9c-f3dc-497c-9ccc-5ca0a36624ed.png">
+
+<img width="1446" alt="Screen Shot 2021-09-23 at 19 26 08" src="https://user-images.githubusercontent.com/49168661/134603735-cce50615-6ef0-444d-af21-5de8572fd8a5.png">
